@@ -1,0 +1,285 @@
+2026-07-15 12:09:13,888 | INFO | DQ-07 year format rejects | profitandloss | 103 rows | raw values: ['TTM', 'Mar 2023 15', 'Mar 2016 9m'] | category=data source issue
+2026-07-15 12:09:13,892 | INFO | DQ-07 year format rejects | balancesheet | 5 rows | raw values: ['2024.5'] | category=data source issue
+2026-07-15 12:09:13,897 | INFO | DQ-02 deduplication | profitandloss | removed 12 duplicate rows | category=data source issue
+2026-07-15 12:09:13,898 | INFO | DQ-02 deduplication | balancesheet | removed 87 duplicate rows | category=data source issue
+2026-07-15 12:09:13,900 | INFO | DQ-02 deduplication | cashflow | removed 35 duplicate rows | category=data source issue
+2026-07-15 12:09:13,934 | INFO | ICR label=Debt Free | ABB 2012-12 | category=data source issue
+2026-07-15 12:09:13,936 | INFO | ICR label=Debt Free | ABB 2014-03 | category=data source issue
+2026-07-15 12:09:13,938 | INFO | ICR label=Debt Free | ABB 2015-03 | category=data source issue
+2026-07-15 12:09:13,952 | INFO | ICR label=Debt Free | ADANIENSOL 2014-03 | category=data source issue
+2026-07-15 12:09:13,954 | INFO | High leverage flag | ADANIENSOL 2015-03 D/E=8.96 | category=formula discrepancy
+2026-07-15 12:09:13,956 | INFO | Revenue CAGR 3yr flag=ZERO_BASE | ADANIENSOL 2017-03 | category=formula discrepancy
+2026-07-15 12:09:13,957 | INFO | Revenue CAGR 5yr flag=ZERO_BASE | ADANIENSOL 2019-03 | category=formula discrepancy
+2026-07-15 12:09:13,961 | INFO | OPM mismatch | ADANIENSOL 2024-03 | computed=34.39 source=30.0 | category=formula discrepancy
+2026-07-15 12:09:13,961 | INFO | Revenue CAGR 10yr flag=ZERO_BASE | ADANIENSOL 2024-03 | category=formula discrepancy
+2026-07-15 12:09:13,973 | INFO | High leverage flag | ADANIGREEN 2018-03 D/E=7.36 | category=formula discrepancy
+2026-07-15 12:09:13,974 | INFO | High leverage flag | ADANIGREEN 2019-03 D/E=5.76 | category=formula discrepancy
+2026-07-15 12:09:13,975 | INFO | High leverage flag | ADANIGREEN 2020-03 D/E=6.31 | category=formula discrepancy
+2026-07-15 12:09:13,976 | INFO | High leverage flag | ADANIGREEN 2021-03 D/E=11.00 | category=formula discrepancy
+2026-07-15 12:09:13,977 | INFO | High leverage flag | ADANIGREEN 2022-03 D/E=20.21 | category=formula discrepancy
+2026-07-15 12:09:13,978 | INFO | High leverage flag | ADANIGREEN 2023-03 D/E=7.42 | category=formula discrepancy
+2026-07-15 12:09:13,979 | INFO | High leverage flag | ADANIGREEN 2024-03 D/E=6.60 | category=formula discrepancy
+2026-07-15 12:09:13,991 | INFO | High leverage flag | ADANIPOWER 2013-03 D/E=9.74 | category=formula discrepancy
+2026-07-15 12:09:13,993 | INFO | High leverage flag | ADANIPOWER 2014-03 D/E=6.75 | category=formula discrepancy
+2026-07-15 12:09:13,995 | INFO | High leverage flag | ADANIPOWER 2015-03 D/E=7.82 | category=formula discrepancy
+2026-07-15 12:09:13,997 | INFO | High leverage flag | ADANIPOWER 2016-03 D/E=7.06 | category=formula discrepancy
+2026-07-15 12:09:13,999 | INFO | High leverage flag | ADANIPOWER 2017-03 D/E=17.49 | category=formula discrepancy
+2026-07-15 12:09:14,001 | INFO | High leverage flag | ADANIPOWER 2018-03 D/E=59.43 | category=formula discrepancy
+2026-07-15 12:09:14,005 | INFO | High leverage flag | ADANIPOWER 2019-03 D/E=6.09 | category=formula discrepancy
+2026-07-15 12:09:14,007 | INFO | High leverage flag | ADANIPOWER 2020-03 D/E=8.52 | category=formula discrepancy
+2026-07-15 12:09:14,057 | INFO | OPM mismatch | AXISBANK 2013-03 | computed=30.58 source=1353.0 | category=formula discrepancy
+2026-07-15 12:09:14,059 | INFO | OPM mismatch | AXISBANK 2014-03 | computed=31.47 source=2307.0 | category=formula discrepancy
+2026-07-15 12:09:14,060 | INFO | OPM mismatch | AXISBANK 2015-03 | computed=31.36 source=3097.0 | category=formula discrepancy
+2026-07-15 12:09:14,061 | INFO | OPM mismatch | AXISBANK 2016-03 | computed=32.61 source=3466.0 | category=formula discrepancy
+2026-07-15 12:09:14,062 | INFO | OPM mismatch | AXISBANK 2017-03 | computed=53.45 source=-5715.0 | category=formula discrepancy
+2026-07-15 12:09:14,063 | INFO | OPM mismatch | AXISBANK 2018-03 | computed=63.12 source=-10277.0 | category=formula discrepancy
+2026-07-15 12:09:14,065 | INFO | OPM mismatch | AXISBANK 2019-03 | computed=49.39 source=-5447.0 | category=formula discrepancy
+2026-07-15 12:09:14,066 | INFO | OPM mismatch | AXISBANK 2020-03 | computed=55.98 source=-9859.0 | category=formula discrepancy
+2026-07-15 12:09:14,067 | INFO | OPM mismatch | AXISBANK 2021-03 | computed=50.12 source=-2510.0 | category=formula discrepancy
+2026-07-15 12:09:14,068 | INFO | OPM mismatch | AXISBANK 2022-03 | computed=44.47 source=3170.0 | category=formula discrepancy
+2026-07-15 12:09:14,069 | INFO | OPM mismatch | AXISBANK 2023-03 | computed=34.16 source=13857.0 | category=formula discrepancy
+2026-07-15 12:09:14,070 | INFO | OPM mismatch | AXISBANK 2024-03 | computed=34.69 source=11952.0 | category=formula discrepancy
+2026-07-15 12:09:14,102 | INFO | ICR label=Debt Free | BAJAJHLDNG 2013-03 | category=data source issue
+2026-07-15 12:09:14,104 | INFO | ICR label=Debt Free | BAJAJHLDNG 2014-03 | category=data source issue
+2026-07-15 12:09:14,105 | INFO | ICR label=Debt Free | BAJAJHLDNG 2015-03 | category=data source issue
+2026-07-15 12:09:14,107 | INFO | ICR label=Debt Free | BAJAJHLDNG 2016-03 | category=data source issue
+2026-07-15 12:09:14,108 | INFO | ICR label=Debt Free | BAJAJHLDNG 2017-03 | category=data source issue
+2026-07-15 12:09:14,110 | INFO | ICR label=Debt Free | BAJAJHLDNG 2018-03 | category=data source issue
+2026-07-15 12:09:14,112 | INFO | ICR label=Debt Free | BAJAJHLDNG 2019-03 | category=data source issue
+2026-07-15 12:09:14,121 | INFO | OPM mismatch | BAJFINANCE 2015-03 | computed=32.49 source=1367.0 | category=formula discrepancy
+2026-07-15 12:09:14,122 | INFO | OPM mismatch | BAJFINANCE 2016-03 | computed=32.25 source=1986.0 | category=formula discrepancy
+2026-07-15 12:09:14,124 | INFO | OPM mismatch | BAJFINANCE 2017-03 | computed=32.60 source=2867.0 | category=formula discrepancy
+2026-07-15 12:09:14,125 | INFO | OPM mismatch | BAJFINANCE 2018-03 | computed=32.28 source=3935.0 | category=formula discrepancy
+2026-07-15 12:09:14,127 | INFO | OPM mismatch | BAJFINANCE 2019-03 | computed=29.50 source=6310.0 | category=formula discrepancy
+2026-07-15 12:09:14,129 | INFO | OPM mismatch | BAJFINANCE 2020-03 | computed=34.73 source=7608.0 | category=formula discrepancy
+2026-07-15 12:09:14,130 | INFO | OPM mismatch | BAJFINANCE 2021-03 | computed=40.64 source=6314.0 | category=formula discrepancy
+2026-07-15 12:09:14,132 | INFO | OPM mismatch | BAJFINANCE 2022-03 | computed=37.55 source=9906.0 | category=formula discrepancy
+2026-07-15 12:09:14,133 | INFO | OPM mismatch | BAJFINANCE 2023-03 | computed=30.65 source=16018.0 | category=formula discrepancy
+2026-07-15 12:09:14,135 | INFO | OPM mismatch | BAJFINANCE 2024-03 | computed=29.29 source=19987.0 | category=formula discrepancy
+2026-07-15 12:09:14,138 | INFO | OPM mismatch | BANKBARODA 2013-03 | computed=30.05 source=1006.0 | category=formula discrepancy
+2026-07-15 12:09:14,139 | INFO | OPM mismatch | BANKBARODA 2014-03 | computed=29.78 source=809.0 | category=formula discrepancy
+2026-07-15 12:09:14,141 | INFO | OPM mismatch | BANKBARODA 2015-03 | computed=29.98 source=902.0 | category=formula discrepancy
+2026-07-15 12:09:14,142 | INFO | OPM mismatch | BANKBARODA 2016-03 | computed=55.44 source=-11700.0 | category=formula discrepancy
+2026-07-15 12:09:14,144 | INFO | OPM mismatch | BANKBARODA 2017-03 | computed=43.28 source=-4372.0 | category=formula discrepancy
+2026-07-15 12:09:14,146 | INFO | OPM mismatch | BANKBARODA 2018-03 | computed=56.65 source=-9197.0 | category=formula discrepancy
+2026-07-15 12:09:14,147 | INFO | OPM mismatch | BANKBARODA 2019-03 | computed=48.79 source=-5414.0 | category=formula discrepancy
+2026-07-15 12:09:14,149 | INFO | OPM mismatch | BANKBARODA 2020-03 | computed=51.44 source=-11728.0 | category=formula discrepancy
+2026-07-15 12:09:14,150 | INFO | OPM mismatch | BANKBARODA 2021-03 | computed=51.23 source=-6957.0 | category=formula discrepancy
+2026-07-15 12:09:14,151 | INFO | OPM mismatch | BANKBARODA 2022-03 | computed=51.12 source=-2948.0 | category=formula discrepancy
+2026-07-15 12:09:14,153 | INFO | OPM mismatch | BANKBARODA 2023-03 | computed=40.45 source=6329.0 | category=formula discrepancy
+2026-07-15 12:09:14,155 | INFO | OPM mismatch | BANKBARODA 2024-03 | computed=37.49 source=4102.0 | category=formula discrepancy
+2026-07-15 12:09:14,197 | INFO | ICR label=Debt Free | BOSCHLTD 2013-12 | category=data source issue
+2026-07-15 12:09:14,234 | INFO | OPM mismatch | CANBK 2013-03 | computed=21.18 source=655.0 | category=formula discrepancy
+2026-07-15 12:09:14,236 | INFO | OPM mismatch | CANBK 2014-03 | computed=24.35 source=-672.0 | category=formula discrepancy
+2026-07-15 12:09:14,237 | INFO | OPM mismatch | CANBK 2015-03 | computed=23.51 source=-621.0 | category=formula discrepancy
+2026-07-15 12:09:14,238 | INFO | OPM mismatch | CANBK 2016-03 | computed=40.38 source=-8008.0 | category=formula discrepancy
+2026-07-15 12:09:14,240 | INFO | OPM mismatch | CANBK 2017-03 | computed=37.85 source=-5775.0 | category=formula discrepancy
+2026-07-15 12:09:14,241 | INFO | OPM mismatch | CANBK 2018-03 | computed=61.87 source=-13350.0 | category=formula discrepancy
+2026-07-15 12:09:14,242 | INFO | OPM mismatch | CANBK 2019-03 | computed=56.73 source=-11590.0 | category=formula discrepancy
+2026-07-15 12:09:14,243 | INFO | OPM mismatch | CANBK 2020-03 | computed=53.88 source=-12867.0 | category=formula discrepancy
+2026-07-15 12:09:14,244 | INFO | OPM mismatch | CANBK 2021-03 | computed=61.83 source=-18367.0 | category=formula discrepancy
+2026-07-15 12:09:14,245 | INFO | OPM mismatch | CANBK 2022-03 | computed=58.39 source=-13657.0 | category=formula discrepancy
+2026-07-15 12:09:14,247 | INFO | OPM mismatch | CANBK 2023-03 | computed=49.80 source=-9877.0 | category=formula discrepancy
+2026-07-15 12:09:14,247 | INFO | OPM mismatch | CANBK 2024-03 | computed=41.75 source=-7745.0 | category=formula discrepancy
+2026-07-15 12:09:14,249 | INFO | OPM mismatch | CHOLAFIN 2013-03 | computed=26.77 source=472.0 | category=formula discrepancy
+2026-07-15 12:09:14,250 | INFO | OPM mismatch | CHOLAFIN 2014-03 | computed=28.42 source=578.0 | category=formula discrepancy
+2026-07-15 12:09:14,250 | INFO | OPM mismatch | CHOLAFIN 2015-03 | computed=28.56 source=696.0 | category=formula discrepancy
+2026-07-15 12:09:14,251 | INFO | ICR label=Debt Free | CHOLAFIN 2015-03 | category=data source issue
+2026-07-15 12:09:14,251 | INFO | OPM mismatch | CHOLAFIN 2016-03 | computed=30.04 source=899.0 | category=formula discrepancy
+2026-07-15 12:09:14,252 | INFO | OPM mismatch | CHOLAFIN 2017-03 | computed=28.16 source=1143.0 | category=formula discrepancy
+2026-07-15 12:09:14,253 | INFO | OPM mismatch | CHOLAFIN 2018-03 | computed=26.10 source=1451.0 | category=formula discrepancy
+2026-07-15 12:09:14,253 | INFO | ICR label=Debt Free | CHOLAFIN 2018-03 | category=data source issue
+2026-07-15 12:09:14,254 | INFO | OPM mismatch | CHOLAFIN 2019-03 | computed=22.96 source=1888.0 | category=formula discrepancy
+2026-07-15 12:09:14,254 | INFO | OPM mismatch | CHOLAFIN 2020-03 | computed=27.79 source=1699.0 | category=formula discrepancy
+2026-07-15 12:09:14,255 | INFO | ICR label=Debt Free | CHOLAFIN 2020-03 | category=data source issue
+2026-07-15 12:09:14,255 | INFO | OPM mismatch | CHOLAFIN 2021-03 | computed=30.40 source=2094.0 | category=formula discrepancy
+2026-07-15 12:09:14,256 | INFO | OPM mismatch | CHOLAFIN 2022-03 | computed=28.83 source=2924.0 | category=formula discrepancy
+2026-07-15 12:09:14,257 | INFO | OPM mismatch | CHOLAFIN 2023-03 | computed=28.10 source=3515.0 | category=formula discrepancy
+2026-07-15 12:09:14,258 | INFO | OPM mismatch | CHOLAFIN 2024-03 | computed=28.10 source=4548.0 | category=formula discrepancy
+2026-07-15 12:09:14,259 | INFO | OPM mismatch | CIPLA 2013-03 | computed=73.26 source=2214.0 | category=formula discrepancy
+2026-07-15 12:09:14,260 | INFO | OPM mismatch | CIPLA 2014-03 | computed=78.90 source=2147.0 | category=formula discrepancy
+2026-07-15 12:09:14,261 | INFO | OPM mismatch | CIPLA 2015-03 | computed=80.94 source=2163.0 | category=formula discrepancy
+2026-07-15 12:09:14,261 | INFO | OPM mismatch | CIPLA 2016-03 | computed=82.02 source=2480.0 | category=formula discrepancy
+2026-07-15 12:09:14,262 | INFO | OPM mismatch | CIPLA 2017-03 | computed=82.66 source=2496.0 | category=formula discrepancy
+2026-07-15 12:09:14,263 | INFO | OPM mismatch | CIPLA 2018-03 | computed=81.35 source=2826.0 | category=formula discrepancy
+2026-07-15 12:09:14,263 | INFO | OPM mismatch | CIPLA 2019-03 | computed=81.07 source=3097.0 | category=formula discrepancy
+2026-07-15 12:09:14,265 | INFO | OPM mismatch | CIPLA 2020-03 | computed=81.29 source=3206.0 | category=formula discrepancy
+2026-07-15 12:09:14,266 | INFO | OPM mismatch | CIPLA 2021-03 | computed=77.80 source=4252.0 | category=formula discrepancy
+2026-07-15 12:09:14,267 | INFO | OPM mismatch | CIPLA 2022-03 | computed=79.08 source=4553.0 | category=formula discrepancy
+2026-07-15 12:09:14,268 | INFO | OPM mismatch | CIPLA 2023-03 | computed=77.91 source=5027.0 | category=formula discrepancy
+2026-07-15 12:09:14,270 | INFO | OPM mismatch | CIPLA 2024-03 | computed=75.59 source=6291.0 | category=formula discrepancy
+2026-07-15 12:09:14,273 | INFO | OPM mismatch | COALINDIA 2013-03 | computed=73.52 source=18087.0 | category=formula discrepancy
+2026-07-15 12:09:14,275 | INFO | OPM mismatch | COALINDIA 2014-03 | computed=74.84 source=17766.0 | category=formula discrepancy
+2026-07-15 12:09:14,277 | INFO | OPM mismatch | COALINDIA 2015-03 | computed=76.60 source=17343.0 | category=formula discrepancy
+2026-07-15 12:09:14,279 | INFO | OPM mismatch | COALINDIA 2016-03 | computed=75.96 source=18714.0 | category=formula discrepancy
+2026-07-15 12:09:14,281 | INFO | OPM mismatch | COALINDIA 2017-03 | computed=84.07 source=12448.0 | category=formula discrepancy
+2026-07-15 12:09:14,283 | INFO | OPM mismatch | COALINDIA 2018-03 | computed=89.10 source=9288.0 | category=formula discrepancy
+2026-07-15 12:09:14,285 | INFO | OPM mismatch | COALINDIA 2019-03 | computed=74.89 source=25007.0 | category=formula discrepancy
+2026-07-15 12:09:14,287 | INFO | OPM mismatch | COALINDIA 2020-03 | computed=77.54 source=21581.0 | category=formula discrepancy
+2026-07-15 12:09:14,289 | INFO | OPM mismatch | COALINDIA 2021-03 | computed=79.31 source=18628.0 | category=formula discrepancy
+2026-07-15 12:09:14,291 | INFO | OPM mismatch | COALINDIA 2022-03 | computed=77.47 source=24721.0 | category=formula discrepancy
+2026-07-15 12:09:14,292 | INFO | OPM mismatch | COALINDIA 2023-03 | computed=68.01 source=44232.0 | category=formula discrepancy
+2026-07-15 12:09:14,294 | INFO | OPM mismatch | COALINDIA 2024-03 | computed=66.29 source=47971.0 | category=formula discrepancy
+2026-07-15 12:09:14,484 | INFO | OPM mismatch | HDFCBANK 2013-03 | computed=35.22 source=3534.0 | category=formula discrepancy
+2026-07-15 12:09:14,485 | INFO | OPM mismatch | HDFCBANK 2014-03 | computed=31.74 source=5602.0 | category=formula discrepancy
+2026-07-15 12:09:14,486 | INFO | OPM mismatch | HDFCBANK 2015-03 | computed=31.90 source=7214.0 | category=formula discrepancy
+2026-07-15 12:09:14,487 | INFO | OPM mismatch | HDFCBANK 2016-03 | computed=31.75 source=9037.0 | category=formula discrepancy
+2026-07-15 12:09:14,488 | INFO | OPM mismatch | HDFCBANK 2017-03 | computed=32.56 source=11374.0 | category=formula discrepancy
+2026-07-15 12:09:14,489 | INFO | OPM mismatch | HDFCBANK 2018-03 | computed=34.63 source=13374.0 | category=formula discrepancy
+2026-07-15 12:09:14,490 | INFO | OPM mismatch | HDFCBANK 2019-03 | computed=33.15 source=16592.0 | category=formula discrepancy
+2026-07-15 12:09:14,491 | INFO | OPM mismatch | HDFCBANK 2020-03 | computed=37.20 source=14593.0 | category=formula discrepancy
+2026-07-15 12:09:14,491 | INFO | OPM mismatch | HDFCBANK 2021-03 | computed=40.81 source=16848.0 | category=formula discrepancy
+2026-07-15 12:09:14,493 | INFO | OPM mismatch | HDFCBANK 2022-03 | computed=41.61 source=20795.0 | category=formula discrepancy
+2026-07-15 12:09:14,494 | INFO | OPM mismatch | HDFCBANK 2023-03 | computed=36.92 source=29932.0 | category=formula discrepancy
+2026-07-15 12:09:14,496 | INFO | OPM mismatch | HDFCBANK 2024-03 | computed=61.41 source=-44685.0 | category=formula discrepancy
+2026-07-15 12:09:14,498 | INFO | OPM mismatch | HDFCLIFE 2013-03 | computed=96.27 source=525.0 | category=formula discrepancy
+2026-07-15 12:09:14,499 | INFO | OPM mismatch | HDFCLIFE 2014-03 | computed=96.48 source=605.0 | category=formula discrepancy
+2026-07-15 12:09:14,500 | INFO | OPM mismatch | HDFCLIFE 2015-03 | computed=96.79 source=874.0 | category=formula discrepancy
+2026-07-15 12:09:14,501 | INFO | OPM mismatch | HDFCLIFE 2016-03 | computed=94.74 source=953.0 | category=formula discrepancy
+2026-07-15 12:09:14,502 | INFO | OPM mismatch | HDFCLIFE 2017-03 | computed=96.83 source=972.0 | category=formula discrepancy
+2026-07-15 12:09:14,503 | INFO | OPM mismatch | HDFCLIFE 2018-03 | computed=96.67 source=1074.0 | category=formula discrepancy
+2026-07-15 12:09:14,504 | INFO | OPM mismatch | HDFCLIFE 2019-03 | computed=96.87 source=1215.0 | category=formula discrepancy
+2026-07-15 12:09:14,505 | INFO | OPM mismatch | HDFCLIFE 2020-03 | computed=96.12 source=1141.0 | category=formula discrepancy
+2026-07-15 12:09:14,505 | INFO | OPM mismatch | HDFCLIFE 2021-03 | computed=98.27 source=1235.0 | category=formula discrepancy
+2026-07-15 12:09:14,506 | INFO | OPM mismatch | HDFCLIFE 2022-03 | computed=98.84 source=778.0 | category=formula discrepancy
+2026-07-15 12:09:14,507 | INFO | OPM mismatch | HDFCLIFE 2023-03 | computed=99.89 source=80.0 | category=formula discrepancy
+2026-07-15 12:09:14,509 | INFO | OPM mismatch | HDFCLIFE 2024-03 | computed=99.48 source=531.0 | category=formula discrepancy
+2026-07-15 12:09:14,512 | INFO | OPM mismatch | HEROMOTOCO 2014-03 | computed=85.94 source=3553.0 | category=formula discrepancy
+2026-07-15 12:09:14,514 | INFO | OPM mismatch | HEROMOTOCO 2015-03 | computed=87.22 source=3520.0 | category=formula discrepancy
+2026-07-15 12:09:14,516 | INFO | OPM mismatch | HEROMOTOCO 2016-03 | computed=84.45 source=4424.0 | category=formula discrepancy
+2026-07-15 12:09:14,518 | INFO | OPM mismatch | HEROMOTOCO 2017-03 | computed=83.97 source=4585.0 | category=formula discrepancy
+2026-07-15 12:09:14,520 | INFO | OPM mismatch | HEROMOTOCO 2018-03 | computed=83.57 source=5334.0 | category=formula discrepancy
+2026-07-15 12:09:14,522 | INFO | OPM mismatch | HEROMOTOCO 2019-03 | computed=85.21 source=5025.0 | category=formula discrepancy
+2026-07-15 12:09:14,523 | INFO | OPM mismatch | HEROMOTOCO 2020-03 | computed=86.09 source=4070.0 | category=formula discrepancy
+2026-07-15 12:09:14,524 | INFO | OPM mismatch | HEROMOTOCO 2021-03 | computed=86.90 source=4058.0 | category=formula discrepancy
+2026-07-15 12:09:14,525 | INFO | OPM mismatch | HEROMOTOCO 2022-03 | computed=88.98 source=3256.0 | category=formula discrepancy
+2026-07-15 12:09:14,526 | INFO | OPM mismatch | HEROMOTOCO 2023-03 | computed=88.00 source=4099.0 | category=formula discrepancy
+2026-07-15 12:09:14,527 | INFO | OPM mismatch | HEROMOTOCO 2024-03 | computed=86.15 source=5235.0 | category=formula discrepancy
+2026-07-15 12:09:14,529 | INFO | OPM mismatch | HINDALCO 2013-03 | computed=90.40 source=7699.0 | category=formula discrepancy
+2026-07-15 12:09:14,530 | INFO | OPM mismatch | HINDALCO 2014-03 | computed=90.85 source=8024.0 | category=formula discrepancy
+2026-07-15 12:09:14,530 | INFO | OPM mismatch | HINDALCO 2015-03 | computed=91.52 source=8844.0 | category=formula discrepancy
+2026-07-15 12:09:14,531 | INFO | OPM mismatch | HINDALCO 2016-03 | computed=92.12 source=7778.0 | category=formula discrepancy
+2026-07-15 12:09:14,532 | INFO | OPM mismatch | HINDALCO 2017-03 | computed=87.71 source=12317.0 | category=formula discrepancy
+2026-07-15 12:09:14,533 | INFO | OPM mismatch | HINDALCO 2018-03 | computed=88.11 source=13695.0 | category=formula discrepancy
+2026-07-15 12:09:14,534 | INFO | OPM mismatch | HINDALCO 2019-03 | computed=88.12 source=15511.0 | category=formula discrepancy
+2026-07-15 12:09:14,534 | INFO | OPM mismatch | HINDALCO 2020-03 | computed=87.89 source=14306.0 | category=formula discrepancy
+2026-07-15 12:09:14,535 | INFO | OPM mismatch | HINDALCO 2021-03 | computed=86.70 source=17559.0 | category=formula discrepancy
+2026-07-15 12:09:14,536 | INFO | OPM mismatch | HINDALCO 2022-03 | computed=85.47 source=28347.0 | category=formula discrepancy
+2026-07-15 12:09:14,537 | INFO | OPM mismatch | HINDALCO 2023-03 | computed=89.85 source=22666.0 | category=formula discrepancy
+2026-07-15 12:09:14,537 | INFO | OPM mismatch | HINDALCO 2024-03 | computed=88.95 source=23872.0 | category=formula discrepancy
+2026-07-15 12:09:14,539 | INFO | OPM mismatch | HINDUNILVR 2013-03 | computed=84.37 source=4220.0 | category=formula discrepancy
+2026-07-15 12:09:14,541 | INFO | OPM mismatch | HINDUNILVR 2014-03 | computed=83.72 source=4759.0 | category=formula discrepancy
+2026-07-15 12:09:14,542 | INFO | OPM mismatch | HINDUNILVR 2015-03 | computed=83.07 source=5412.0 | category=formula discrepancy
+2026-07-15 12:09:14,543 | INFO | OPM mismatch | HINDUNILVR 2016-03 | computed=81.64 source=5910.0 | category=formula discrepancy
+2026-07-15 12:09:14,544 | INFO | OPM mismatch | HINDUNILVR 2017-03 | computed=80.92 source=6328.0 | category=formula discrepancy
+2026-07-15 12:09:14,545 | INFO | OPM mismatch | HINDUNILVR 2018-03 | computed=78.90 source=7499.0 | category=formula discrepancy
+2026-07-15 12:09:14,546 | INFO | OPM mismatch | HINDUNILVR 2019-03 | computed=77.41 source=8880.0 | category=formula discrepancy
+2026-07-15 12:09:14,548 | INFO | OPM mismatch | HINDUNILVR 2020-03 | computed=75.21 source=9861.0 | category=formula discrepancy
+2026-07-15 12:09:14,549 | INFO | OPM mismatch | HINDUNILVR 2021-03 | computed=75.28 source=11626.0 | category=formula discrepancy
+2026-07-15 12:09:14,550 | INFO | OPM mismatch | HINDUNILVR 2022-03 | computed=75.49 source=12857.0 | category=formula discrepancy
+2026-07-15 12:09:14,551 | INFO | OPM mismatch | HINDUNILVR 2023-03 | computed=76.65 source=14147.0 | category=formula discrepancy
+2026-07-15 12:09:14,552 | INFO | OPM mismatch | HINDUNILVR 2024-03 | computed=76.32 source=14659.0 | category=formula discrepancy
+2026-07-15 12:09:14,554 | INFO | OPM mismatch | ICICIBANK 2013-03 | computed=70.59 source=-15085.0 | category=formula discrepancy
+2026-07-15 12:09:14,555 | INFO | OPM mismatch | ICICIBANK 2014-03 | computed=66.40 source=-13084.0 | category=formula discrepancy
+2026-07-15 12:09:14,557 | INFO | OPM mismatch | ICICIBANK 2015-03 | computed=70.53 source=-16120.0 | category=formula discrepancy
+2026-07-15 12:09:14,559 | INFO | OPM mismatch | ICICIBANK 2016-03 | computed=88.12 source=-26955.0 | category=formula discrepancy
+2026-07-15 12:09:14,561 | INFO | OPM mismatch | ICICIBANK 2017-03 | computed=104.76 source=-37737.0 | category=formula discrepancy
+2026-07-15 12:09:14,563 | INFO | OPM mismatch | ICICIBANK 2018-03 | computed=117.12 source=-44906.0 | category=formula discrepancy
+2026-07-15 12:09:14,564 | INFO | OPM mismatch | ICICIBANK 2019-03 | computed=116.38 source=-50971.0 | category=formula discrepancy
+2026-07-15 12:09:14,566 | INFO | OPM mismatch | ICICIBANK 2020-03 | computed=100.62 source=-45190.0 | category=formula discrepancy
+2026-07-15 12:09:14,568 | INFO | OPM mismatch | ICICIBANK 2021-03 | computed=102.41 source=-44805.0 | category=formula discrepancy
+2026-07-15 12:09:14,570 | INFO | OPM mismatch | ICICIBANK 2022-03 | computed=84.69 source=-26558.0 | category=formula discrepancy
+2026-07-15 12:09:14,571 | INFO | OPM mismatch | ICICIBANK 2023-03 | computed=72.57 source=-17341.0 | category=formula discrepancy
+2026-07-15 12:09:14,573 | INFO | OPM mismatch | ICICIBANK 2024-03 | computed=62.41 source=-14152.0 | category=formula discrepancy
+2026-07-15 12:09:14,577 | INFO | OPM mismatch | ICICIGI 2013-03 | computed=104.46 source=-178.0 | category=formula discrepancy
+2026-07-15 12:09:14,578 | INFO | OPM mismatch | ICICIGI 2014-03 | computed=105.19 source=-225.0 | category=formula discrepancy
+2026-07-15 12:09:14,580 | INFO | OPM mismatch | ICICIGI 2015-03 | computed=105.24 source=-221.0 | category=formula discrepancy
+2026-07-15 12:09:14,582 | INFO | OPM mismatch | ICICIGI 2016-03 | computed=87.34 source=764.0 | category=formula discrepancy
+2026-07-15 12:09:14,582 | INFO | ICR label=Debt Free | ICICIGI 2016-03 | category=data source issue
+2026-07-15 12:09:14,584 | INFO | OPM mismatch | ICICIGI 2017-03 | computed=87.78 source=919.0 | category=formula discrepancy
+2026-07-15 12:09:14,585 | INFO | OPM mismatch | ICICIGI 2018-03 | computed=103.79 source=-262.0 | category=formula discrepancy
+2026-07-15 12:09:14,587 | INFO | OPM mismatch | ICICIGI 2019-03 | computed=85.05 source=1669.0 | category=formula discrepancy
+2026-07-15 12:09:14,589 | INFO | OPM mismatch | ICICIGI 2020-03 | computed=84.61 source=1772.0 | category=formula discrepancy
+2026-07-15 12:09:14,590 | INFO | OPM mismatch | ICICIGI 2021-03 | computed=82.97 source=2072.0 | category=formula discrepancy
+2026-07-15 12:09:14,590 | INFO | OPM mismatch | ICICIGI 2022-03 | computed=93.66 source=1016.0 | category=formula discrepancy
+2026-07-15 12:09:14,591 | INFO | OPM mismatch | ICICIGI 2023-03 | computed=92.93 source=1264.0 | category=formula discrepancy
+2026-07-15 12:09:14,592 | INFO | OPM mismatch | ICICIGI 2024-03 | computed=87.42 source=2577.0 | category=formula discrepancy
+2026-07-15 12:09:14,606 | INFO | OPM mismatch | ICICIPRULI 2013-03 | computed=96.28 source=745.0 | category=formula discrepancy
+2026-07-15 12:09:14,608 | INFO | OPM mismatch | ICICIPRULI 2014-03 | computed=93.13 source=1504.0 | category=formula discrepancy
+2026-07-15 12:09:14,609 | INFO | OPM mismatch | ICICIPRULI 2015-03 | computed=95.20 source=1655.0 | category=formula discrepancy
+2026-07-15 12:09:14,611 | INFO | OPM mismatch | ICICIPRULI 2016-03 | computed=91.17 source=1842.0 | category=formula discrepancy
+2026-07-15 12:09:14,611 | INFO | ICR label=Debt Free | ICICIPRULI 2016-03 | category=data source issue
+2026-07-15 12:09:14,613 | INFO | OPM mismatch | ICICIPRULI 2017-03 | computed=95.22 source=1806.0 | category=formula discrepancy
+2026-07-15 12:09:14,614 | INFO | OPM mismatch | ICICIPRULI 2018-03 | computed=95.44 source=1771.0 | category=formula discrepancy
+2026-07-15 12:09:14,615 | INFO | OPM mismatch | ICICIPRULI 2019-03 | computed=98.70 source=541.0 | category=formula discrepancy
+2026-07-15 12:09:14,616 | INFO | OPM mismatch | ICICIPRULI 2020-03 | computed=101.52 source=-319.0 | category=formula discrepancy
+2026-07-15 12:09:14,617 | INFO | OPM mismatch | ICICIPRULI 2021-03 | computed=100.47 source=-390.0 | category=formula discrepancy
+2026-07-15 12:09:14,618 | INFO | OPM mismatch | ICICIPRULI 2022-03 | computed=103.40 source=-2163.0 | category=formula discrepancy
+2026-07-15 12:09:14,619 | INFO | OPM mismatch | ICICIPRULI 2023-03 | computed=103.48 source=-1757.0 | category=formula discrepancy
+2026-07-15 12:09:14,620 | INFO | OPM mismatch | ICICIPRULI 2024-03 | computed=102.03 source=-1829.0 | category=formula discrepancy
+2026-07-15 12:09:14,622 | INFO | OPM mismatch | INDIGO 2013-03 | computed=90.71 source=855.0 | category=formula discrepancy
+2026-07-15 12:09:14,624 | INFO | OPM mismatch | INDIGO 2014-03 | computed=96.11 source=433.0 | category=formula discrepancy
+2026-07-15 12:09:14,624 | INFO | OPM mismatch | INDIGO 2015-03 | computed=86.33 source=1904.0 | category=formula discrepancy
+2026-07-15 12:09:14,625 | INFO | OPM mismatch | INDIGO 2016-03 | computed=80.40 source=3164.0 | category=formula discrepancy
+2026-07-15 12:09:14,626 | INFO | OPM mismatch | INDIGO 2017-03 | computed=88.06 source=2219.0 | category=formula discrepancy
+2026-07-15 12:09:14,627 | INFO | OPM mismatch | INDIGO 2018-03 | computed=86.84 source=3030.0 | category=formula discrepancy
+2026-07-15 12:09:14,628 | INFO | OPM mismatch | INDIGO 2019-03 | computed=100.53 source=-151.0 | category=formula discrepancy
+2026-07-15 12:09:14,629 | INFO | OPM mismatch | INDIGO 2020-03 | computed=88.62 source=4069.0 | category=formula discrepancy
+2026-07-15 12:09:14,630 | INFO | OPM mismatch | INDIGO 2021-03 | computed=99.98 source=2.0 | category=formula discrepancy
+2026-07-15 12:09:14,631 | INFO | OPM mismatch | INDIGO 2022-03 | computed=97.85 source=558.0 | category=formula discrepancy
+2026-07-15 12:09:14,633 | INFO | OPM mismatch | INDIGO 2023-03 | computed=88.02 source=6521.0 | category=formula discrepancy
+2026-07-15 12:09:14,634 | INFO | OPM mismatch | INDIGO 2024-03 | computed=76.30 source=16331.0 | category=formula discrepancy
+2026-07-15 12:09:14,638 | INFO | OPM mismatch | INDUSINDBK 2013-03 | computed=27.88 source=286.0 | category=formula discrepancy
+2026-07-15 12:09:14,640 | INFO | OPM mismatch | INDUSINDBK 2014-03 | computed=30.95 source=335.0 | category=formula discrepancy
+2026-07-15 12:09:14,642 | INFO | OPM mismatch | INDUSINDBK 2015-03 | computed=32.33 source=288.0 | category=formula discrepancy
+2026-07-15 12:09:14,644 | INFO | OPM mismatch | INDUSINDBK 2016-03 | computed=35.28 source=329.0 | category=formula discrepancy
+2026-07-15 12:09:14,646 | INFO | OPM mismatch | INDUSINDBK 2017-03 | computed=39.46 source=379.0 | category=formula discrepancy
+2026-07-15 12:09:14,647 | INFO | OPM mismatch | INDUSINDBK 2018-03 | computed=37.93 source=942.0 | category=formula discrepancy
+2026-07-15 12:09:14,649 | INFO | OPM mismatch | INDUSINDBK 2019-03 | computed=41.70 source=-437.0 | category=formula discrepancy
+2026-07-15 12:09:14,651 | INFO | OPM mismatch | INDUSINDBK 2020-03 | computed=43.81 source=-553.0 | category=formula discrepancy
+2026-07-15 12:09:14,653 | INFO | OPM mismatch | INDUSINDBK 2021-03 | computed=55.16 source=-2469.0 | category=formula discrepancy
+2026-07-15 12:09:14,656 | INFO | OPM mismatch | INDUSINDBK 2022-03 | computed=51.39 source=-839.0 | category=formula discrepancy
+2026-07-15 12:09:14,658 | INFO | OPM mismatch | INDUSINDBK 2023-03 | computed=42.69 source=2067.0 | category=formula discrepancy
+2026-07-15 12:09:14,660 | INFO | OPM mismatch | INDUSINDBK 2024-03 | computed=38.55 source=2978.0 | category=formula discrepancy
+2026-07-15 12:09:14,665 | INFO | ICR label=Debt Free | INFY 2016-03 | category=data source issue
+2026-07-15 12:09:14,666 | INFO | ICR label=Debt Free | INFY 2017-03 | category=data source issue
+2026-07-15 12:09:14,668 | INFO | ICR label=Debt Free | INFY 2018-03 | category=data source issue
+2026-07-15 12:09:14,669 | INFO | ICR label=Debt Free | INFY 2019-03 | category=data source issue
+2026-07-15 12:09:14,696 | INFO | ICR label=Debt Free | IRCTC 2015-03 | category=data source issue
+2026-07-15 12:09:14,697 | INFO | ICR label=Debt Free | IRCTC 2016-03 | category=data source issue
+2026-07-15 12:09:14,744 | INFO | OPM mismatch | JIOFIN 2023-03 | computed=86.67 source=88.0 | category=formula discrepancy
+2026-07-15 12:09:14,744 | INFO | ICR label=Debt Free | JIOFIN 2023-03 | category=data source issue
+2026-07-15 12:09:14,766 | INFO | OPM mismatch | KOTAKBANK 2013-03 | computed=60.92 source=-1789.0 | category=formula discrepancy
+2026-07-15 12:09:14,767 | INFO | OPM mismatch | KOTAKBANK 2014-03 | computed=58.84 source=-1379.0 | category=formula discrepancy
+2026-07-15 12:09:14,768 | INFO | OPM mismatch | KOTAKBANK 2015-03 | computed=72.96 source=-3366.0 | category=formula discrepancy
+2026-07-15 12:09:14,769 | INFO | OPM mismatch | KOTAKBANK 2016-03 | computed=56.57 source=-2263.0 | category=formula discrepancy
+2026-07-15 12:09:14,770 | INFO | OPM mismatch | KOTAKBANK 2017-03 | computed=66.44 source=-3965.0 | category=formula discrepancy
+2026-07-15 12:09:14,771 | INFO | OPM mismatch | KOTAKBANK 2018-03 | computed=66.87 source=-4141.0 | category=formula discrepancy
+2026-07-15 12:09:14,771 | INFO | OPM mismatch | KOTAKBANK 2019-03 | computed=66.23 source=-5114.0 | category=formula discrepancy
+2026-07-15 12:09:14,772 | INFO | OPM mismatch | KOTAKBANK 2020-03 | computed=67.45 source=-5005.0 | category=formula discrepancy
+2026-07-15 12:09:14,773 | INFO | OPM mismatch | KOTAKBANK 2021-03 | computed=90.83 source=-9958.0 | category=formula discrepancy
+2026-07-15 12:09:14,774 | INFO | OPM mismatch | KOTAKBANK 2022-03 | computed=90.98 source=-8512.0 | category=formula discrepancy
+2026-07-15 12:09:14,775 | INFO | OPM mismatch | KOTAKBANK 2023-03 | computed=79.44 source=-5746.0 | category=formula discrepancy
+2026-07-15 12:09:14,776 | INFO | OPM mismatch | KOTAKBANK 2024-03 | computed=83.67 source=-13382.0 | category=formula discrepancy
+2026-07-15 12:09:14,777 | INFO | ICR label=Debt Free | LICI 2019-03 | category=data source issue
+2026-07-15 12:09:14,779 | INFO | ICR label=Debt Free | LICI 2020-03 | category=data source issue
+2026-07-15 12:09:14,781 | INFO | ICR label=Debt Free | LICI 2021-03 | category=data source issue
+2026-07-15 12:09:14,783 | INFO | ICR label=Debt Free | LICI 2022-03 | category=data source issue
+2026-07-15 12:09:14,793 | INFO | High leverage flag | LODHA 2019-03 D/E=6.68 | category=formula discrepancy
+2026-07-15 12:09:14,969 | INFO | ICR label=Debt Free | SBILIFE 2020-03 | category=data source issue
+2026-07-15 12:09:14,970 | INFO | ICR label=Debt Free | SBILIFE 2021-03 | category=data source issue
+2026-07-15 12:09:14,970 | INFO | ICR label=Debt Free | SBILIFE 2022-03 | category=data source issue
+2026-07-15 12:09:15,015 | INFO | OPM mismatch | SUNPHARMA 2024-03 | computed=26.84 source=28.0 | category=formula discrepancy
+2026-07-15 12:09:15,168 | INFO | High leverage flag | UNIONBANK 2013-03 D/E=16.61 | category=formula discrepancy
+2026-07-15 12:09:15,169 | INFO | High leverage flag | UNIONBANK 2014-03 D/E=17.55 | category=formula discrepancy
+2026-07-15 12:09:15,169 | INFO | High leverage flag | UNIONBANK 2015-03 D/E=17.72 | category=formula discrepancy
+2026-07-15 12:09:15,170 | INFO | High leverage flag | UNIONBANK 2016-03 D/E=16.26 | category=formula discrepancy
+2026-07-15 12:09:15,171 | INFO | High leverage flag | UNIONBANK 2017-03 D/E=17.37 | category=formula discrepancy
+2026-07-15 12:09:15,171 | INFO | High leverage flag | UNIONBANK 2018-03 D/E=18.06 | category=formula discrepancy
+2026-07-15 12:09:15,172 | INFO | High leverage flag | UNIONBANK 2019-03 D/E=17.17 | category=formula discrepancy
+2026-07-15 12:09:15,173 | INFO | High leverage flag | UNIONBANK 2020-03 D/E=14.86 | category=formula discrepancy
+2026-07-15 12:09:15,174 | INFO | High leverage flag | UNIONBANK 2021-03 D/E=15.10 | category=formula discrepancy
+2026-07-15 12:09:15,174 | INFO | High leverage flag | UNIONBANK 2022-03 D/E=15.32 | category=formula discrepancy
+2026-07-15 12:09:15,175 | INFO | High leverage flag | UNIONBANK 2023-03 D/E=14.76 | category=formula discrepancy
+2026-07-15 12:09:15,176 | INFO | High leverage flag | UNIONBANK 2024-03 D/E=12.82 | category=formula discrepancy
+2026-07-15 12:09:15,178 | INFO | High leverage flag | UNITDSPR 2015-03 D/E=7.57 | category=formula discrepancy
